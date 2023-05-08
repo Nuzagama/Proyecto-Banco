@@ -35,4 +35,8 @@ public class Cuenta {
 		return estado;
 	}
 	
+	public String toString() {
+		return "Número de cuenta: " + iban + "Su saldo es: " + saldo + "El estado de la cuenta es: " + estado;
+	}
+	
 }

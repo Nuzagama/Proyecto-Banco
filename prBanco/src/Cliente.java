@@ -22,4 +22,8 @@ public class Cliente {
 	public String getApellidos (String apellidos) {
 		return apellidos;
 	}
+	
+	public String toString() {
+		return "Titular: " + nombre + apellidos;
+	}
 }
